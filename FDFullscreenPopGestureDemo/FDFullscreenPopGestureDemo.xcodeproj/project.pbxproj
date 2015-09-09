@@ -13,6 +13,7 @@
 		4894F42B1B183DE3009F44D9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4894F42A1B183DE3009F44D9 /* Images.xcassets */; };
 		4894F42E1B183DE3009F44D9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4894F42C1B183DE3009F44D9 /* LaunchScreen.xib */; };
 		4894F4461B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */ = {isa = PBXBuildFile; fileRef = 4894F4441B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m */; };
+		7A0EF38C1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A0EF38B1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4894F42D1B183DE3009F44D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		4894F4441B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+FDFullscreenPopGesture.m"; sourceTree = "<group>"; };
 		4894F4451B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+FDFullscreenPopGesture.h"; sourceTree = "<group>"; };
+		7A0EF38A1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+FDPopNavBarItems.h"; sourceTree = "<group>"; };
+		7A0EF38B1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+FDPopNavBarItems.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +84,8 @@
 		4894F4431B183DEF009F44D9 /* FDFullscreenPopGesture */ = {
 			isa = PBXGroup;
 			children = (
+				7A0EF38A1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.h */,
+				7A0EF38B1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.m */,
 				4894F4451B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.h */,
 				4894F4441B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m */,
 			);
@@ -161,6 +166,7 @@
 				4894F4231B183DE3009F44D9 /* AppDelegate.m in Sources */,
 				4894F4461B183E99009F44D9 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				4894F4201B183DE3009F44D9 /* main.m in Sources */,
+				7A0EF38C1BA023020080A7A8 /* UIViewController+FDPopNavBarItems.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +311,7 @@
 				4894F43F1B183DE3009F44D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
